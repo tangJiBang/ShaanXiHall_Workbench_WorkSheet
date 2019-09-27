@@ -21,7 +21,7 @@ s.requires_arc = true
 #   }
 #s.source_files  = "PROJECT/Source/**/*.{h,m}"
 #s.static_framework = true
-s.vendored_frameworks = ["PROJECT/Source/Frameworks/ShaanXiHall_Workbench_WorkSheet.framework"]
+s.vendored_frameworks = ["PROJECT/ShaanXiHall_Workbench_WorkSheet/Source/Frameworks/ShaanXiHall_Workbench_WorkSheet.framework"]
 
 #Haidora
 s.dependency 'HaidoraProgressHUDManager', '~> 0.1.1'
