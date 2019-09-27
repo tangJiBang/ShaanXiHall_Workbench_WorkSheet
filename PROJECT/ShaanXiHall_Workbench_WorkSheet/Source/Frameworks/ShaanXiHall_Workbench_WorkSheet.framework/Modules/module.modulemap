@@ -1,0 +1,6 @@
+framework module ShaanXiHall_Workbench_WorkSheet {
+  umbrella header "ShaanXiHall_Workbench_WorkSheet.h"
+
+  export *
+  module * { export * }
+}

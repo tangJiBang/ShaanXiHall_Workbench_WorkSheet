@@ -1,0 +1,1148 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E461DEC125C7F843C4AF03D /* Pods_ShaanXiHall_Workbench_WorkSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A3B8A65EF859E6CE380569 /* Pods_ShaanXiHall_Workbench_WorkSheet.framework */; };
+		A4A86197233DB0A900F37147 /* ShaanXiHall_Workbench_WorkSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A86195233DB0A900F37147 /* ShaanXiHall_Workbench_WorkSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A8621C233DB12C00F37147 /* SXTNHWSLaunchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861A1233DB12C00F37147 /* SXTNHWSLaunchViewController.h */; };
+		A4A8621D233DB12C00F37147 /* SXTNHWSLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861A2233DB12C00F37147 /* SXTNHWSLaunchViewController.m */; };
+		A4A8621F233DB12C00F37147 /* ShaanxiTransmissionNetworkHiddenWorkSheetConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861A5233DB12C00F37147 /* ShaanxiTransmissionNetworkHiddenWorkSheetConstants.h */; };
+		A4A86220233DB12C00F37147 /* ShaanxiTransmissionNetworkHiddenWorkSheetConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861A6233DB12C00F37147 /* ShaanxiTransmissionNetworkHiddenWorkSheetConstants.m */; };
+		A4A86221233DB12C00F37147 /* SXTNHWSEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861A8233DB12C00F37147 /* SXTNHWSEnum.h */; };
+		A4A86222233DB12C00F37147 /* SXTNHWSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861AA233DB12C00F37147 /* SXTNHWSBaseNavigationController.m */; };
+		A4A86223233DB12C00F37147 /* SXTNHWSBaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861AB233DB12C00F37147 /* SXTNHWSBaseController.h */; };
+		A4A86224233DB12C00F37147 /* SXTNHWSBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861AC233DB12C00F37147 /* SXTNHWSBaseCell.m */; };
+		A4A86225233DB12C00F37147 /* SXTNHWSBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861AD233DB12C00F37147 /* SXTNHWSBaseController.m */; };
+		A4A86226233DB12C00F37147 /* SXTNHWSBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861AE233DB12C00F37147 /* SXTNHWSBaseNavigationController.h */; };
+		A4A86227233DB12C00F37147 /* SXTNHWSBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861AF233DB12C00F37147 /* SXTNHWSBaseCell.h */; };
+		A4A86229233DB12C00F37147 /* SXTNHWSHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861B3233DB12C00F37147 /* SXTNHWSHttpManager.m */; };
+		A4A8622A233DB12C00F37147 /* SXTNHWSPhotoManger.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861B4233DB12C00F37147 /* SXTNHWSPhotoManger.h */; };
+		A4A8622B233DB12C00F37147 /* SXTNHWSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861B5233DB12C00F37147 /* SXTNHWSFileManager.m */; };
+		A4A8622C233DB12C00F37147 /* SXTNHWSPhotoManger.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861B6233DB12C00F37147 /* SXTNHWSPhotoManger.m */; };
+		A4A8622D233DB12C00F37147 /* SXTNHWSHttpManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861B7233DB12C00F37147 /* SXTNHWSHttpManager.h */; };
+		A4A8622E233DB12C00F37147 /* SXTNHWSFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861B8233DB12C00F37147 /* SXTNHWSFileManager.h */; };
+		A4A8622F233DB12C00F37147 /* SXTNHWSMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861BA233DB12C00F37147 /* SXTNHWSMacros.h */; };
+		A4A86230233DB12C00F37147 /* SXTNHWSConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861BC233DB12C00F37147 /* SXTNHWSConfigs.m */; };
+		A4A86231233DB12C00F37147 /* SXTNHWSConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861BD233DB12C00F37147 /* SXTNHWSConfigs.h */; };
+		A4A86232233DB12C00F37147 /* SXTNHWSBottomOperateView.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861C0233DB12C00F37147 /* SXTNHWSBottomOperateView.h */; };
+		A4A86233233DB12C00F37147 /* SXTNHWSBottomOperateView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861C1233DB12C00F37147 /* SXTNHWSBottomOperateView.m */; };
+		A4A86234233DB12C00F37147 /* SXTNHWSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861C3233DB12C00F37147 /* SXTNHWSHelper.m */; };
+		A4A86235233DB12C00F37147 /* SXTNHWSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861C4233DB12C00F37147 /* SXTNHWSHelper.h */; };
+		A4A86236233DB12C00F37147 /* UIButton+SXTNHWS.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861C6233DB12C00F37147 /* UIButton+SXTNHWS.m */; };
+		A4A86237233DB12C00F37147 /* HDTableViewItem+SXTNHWS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861C7233DB12C00F37147 /* HDTableViewItem+SXTNHWS.h */; };
+		A4A86238233DB12C00F37147 /* NSObject+SXTNHWS.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861C8233DB12C00F37147 /* NSObject+SXTNHWS.m */; };
+		A4A8623A233DB12C00F37147 /* HDTableViewItem+SXTNHWS.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861CA233DB12C00F37147 /* HDTableViewItem+SXTNHWS.m */; };
+		A4A8623B233DB12C00F37147 /* UIButton+SXTNHWS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861CB233DB12C00F37147 /* UIButton+SXTNHWS.h */; };
+		A4A8623C233DB12C00F37147 /* NSObject+SXTNHWS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861CC233DB12C00F37147 /* NSObject+SXTNHWS.h */; };
+		A4A8623D233DB12C00F37147 /* SXTNHWSWelcomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861D0233DB12C00F37147 /* SXTNHWSWelcomeViewController.h */; };
+		A4A8623E233DB12C00F37147 /* SXTNHWSWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861D1233DB12C00F37147 /* SXTNHWSWelcomeViewController.m */; };
+		A4A8623F233DB12C00F37147 /* SXTNHWSLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861D4233DB12C00F37147 /* SXTNHWSLoginViewController.h */; };
+		A4A86240233DB12C00F37147 /* SXTNHWSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861D5233DB12C00F37147 /* SXTNHWSLoginViewController.m */; };
+		A4A86242233DB12C00F37147 /* SXTNHWSLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861D9233DB12C00F37147 /* SXTNHWSLoginView.h */; };
+		A4A86244233DB12C00F37147 /* SXTNHWSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861DB233DB12C00F37147 /* SXTNHWSLoginView.m */; };
+		A4A86245233DB12C00F37147 /* SXTNHWSDetailsController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861DF233DB12C00F37147 /* SXTNHWSDetailsController.h */; };
+		A4A86246233DB12C00F37147 /* SXTNHWSDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861E0233DB12C00F37147 /* SXTNHWSDetailsController.m */; };
+		A4A86247233DB12C00F37147 /* SXTNHWSNewWorkSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861E3233DB12C00F37147 /* SXTNHWSNewWorkSheetController.m */; };
+		A4A86248233DB12C00F37147 /* SXTNHWSNewWorkSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861E4233DB12C00F37147 /* SXTNHWSNewWorkSheetController.h */; };
+		A4A86249233DB12C00F37147 /* SXTNHWSListController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861E8233DB12C00F37147 /* SXTNHWSListController.h */; };
+		A4A8624A233DB12C00F37147 /* SXTNHWSPageListController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861E9233DB12C00F37147 /* SXTNHWSPageListController.h */; };
+		A4A8624B233DB12C00F37147 /* SXTNHWSListController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861EA233DB12C00F37147 /* SXTNHWSListController.m */; };
+		A4A8624C233DB12C00F37147 /* SXTNHWSPageListController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861EB233DB12C00F37147 /* SXTNHWSPageListController.m */; };
+		A4A8624D233DB12C00F37147 /* SXTNHWSListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861ED233DB12C00F37147 /* SXTNHWSListCell.m */; };
+		A4A8624E233DB12C00F37147 /* SXTNHWSListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861EE233DB12C00F37147 /* SXTNHWSListCell.h */; };
+		A4A8624F233DB12C00F37147 /* SXTNHWSSearchController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861F2233DB12C00F37147 /* SXTNHWSSearchController.h */; };
+		A4A86250233DB12C00F37147 /* SXTNHWSSearchListController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861F3233DB12C00F37147 /* SXTNHWSSearchListController.h */; };
+		A4A86251233DB12C00F37147 /* SXTNHWSSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861F4233DB12C00F37147 /* SXTNHWSSearchController.m */; };
+		A4A86252233DB12C00F37147 /* SXTNHWSSearchListController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861F5233DB12C00F37147 /* SXTNHWSSearchListController.m */; };
+		A4A86253233DB12C00F37147 /* SXTNHWSTurntoSendController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861F9233DB12C00F37147 /* SXTNHWSTurntoSendController.h */; };
+		A4A86254233DB12C00F37147 /* SXTNHWSTurntoSendController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861FA233DB12C00F37147 /* SXTNHWSTurntoSendController.m */; };
+		A4A86255233DB12C00F37147 /* SXTNHWSAcceptController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861FC233DB12C00F37147 /* SXTNHWSAcceptController.h */; };
+		A4A86256233DB12C00F37147 /* SXTNHWSAcceptController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A861FD233DB12C00F37147 /* SXTNHWSAcceptController.m */; };
+		A4A86257233DB12C00F37147 /* SXTNHWSCompleteController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A861FF233DB12C00F37147 /* SXTNHWSCompleteController.h */; };
+		A4A86258233DB12C00F37147 /* SXTNHWSCompleteController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A86200233DB12C00F37147 /* SXTNHWSCompleteController.m */; };
+		A4A86259233DB12C00F37147 /* SXTNHWSBaseOperationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A86202233DB12C00F37147 /* SXTNHWSBaseOperationController.h */; };
+		A4A8625A233DB12C00F37147 /* SXTNHWSBaseOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A86203233DB12C00F37147 /* SXTNHWSBaseOperationController.m */; };
+		A4A8625B233DB12C00F37147 /* SXTNHWSDealCompleteController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A86205233DB12C00F37147 /* SXTNHWSDealCompleteController.m */; };
+		A4A8625C233DB12C00F37147 /* SXTNHWSDealCompleteController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A86206233DB12C00F37147 /* SXTNHWSDealCompleteController.h */; };
+		A4A8625D233DB12C00F37147 /* SXTNHWSMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A86209233DB12C00F37147 /* SXTNHWSMainViewController.h */; };
+		A4A8625E233DB12C00F37147 /* SXTNHWSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A8620A233DB12C00F37147 /* SXTNHWSMainViewController.m */; };
+		A4A86260233DB12C00F37147 /* SXTNHWSMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A8620E233DB12C00F37147 /* SXTNHWSMainCell.m */; };
+		A4A86262233DB12C00F37147 /* SXTNHWSMainCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A86210233DB12C00F37147 /* SXTNHWSMainCell.h */; };
+		A4A86263233DB12C00F37147 /* SXTNHWSHistoryDetailsController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A86212233DB12C00F37147 /* SXTNHWSHistoryDetailsController.h */; };
+		A4A86264233DB12C00F37147 /* SXTNHWSHistoryDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A86213233DB12C00F37147 /* SXTNHWSHistoryDetailsController.m */; };
+		A4A86265233DB12C00F37147 /* SXTNHWSHistoryController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A86217233DB12C00F37147 /* SXTNHWSHistoryController.h */; };
+		A4A86266233DB12C00F37147 /* SXTNHWSHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A86218233DB12C00F37147 /* SXTNHWSHistoryController.m */; };
+		A4A86267233DB12C00F37147 /* SXTNHWSHistoryCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A8621A233DB12C00F37147 /* SXTNHWSHistoryCell.h */; };
+		A4A86268233DB12C00F37147 /* SXTNHWSHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A8621B233DB12C00F37147 /* SXTNHWSHistoryCell.m */; };
+		A4A8626A233DB16C00F37147 /* ShaanXiHall_Workbench_WorkSheet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A4A86269233DB16C00F37147 /* ShaanXiHall_Workbench_WorkSheet.bundle */; };
+		A4A8637C233DBAD900F37147 /* Target_ShaanXiHall_Workbench_WorkSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A8637A233DBAD900F37147 /* Target_ShaanXiHall_Workbench_WorkSheet.h */; };
+		A4A8637D233DBAD900F37147 /* Target_ShaanXiHall_Workbench_WorkSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A8637B233DBAD900F37147 /* Target_ShaanXiHall_Workbench_WorkSheet.m */; };
+		A4A86381233DBB5800F37147 /* CTMediator+ShaanXiHall_Workbench_WorkSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A8637F233DBB5800F37147 /* CTMediator+ShaanXiHall_Workbench_WorkSheet.m */; };
+		A4A86382233DBD5F00F37147 /* CTMediator+ShaanXiHall_Workbench_WorkSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A8637E233DBB5800F37147 /* CTMediator+ShaanXiHall_Workbench_WorkSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A86385233DE93A00F37147 /* ShaanXiHall_Workbench_WorkSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A86384233DE93A00F37147 /* ShaanXiHall_Workbench_WorkSheet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21A3B8A65EF859E6CE380569 /* Pods_ShaanXiHall_Workbench_WorkSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShaanXiHall_Workbench_WorkSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A86192233DB0A900F37147 /* ShaanXiHall_Workbench_WorkSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShaanXiHall_Workbench_WorkSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A86195233DB0A900F37147 /* ShaanXiHall_Workbench_WorkSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaanXiHall_Workbench_WorkSheet.h; sourceTree = "<group>"; };
+		A4A86196233DB0A900F37147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A861A1233DB12C00F37147 /* SXTNHWSLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSLaunchViewController.h; sourceTree = "<group>"; };
+		A4A861A2233DB12C00F37147 /* SXTNHWSLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSLaunchViewController.m; sourceTree = "<group>"; };
+		A4A861A3233DB12C00F37147 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A4A861A5233DB12C00F37147 /* ShaanxiTransmissionNetworkHiddenWorkSheetConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaanxiTransmissionNetworkHiddenWorkSheetConstants.h; sourceTree = "<group>"; };
+		A4A861A6233DB12C00F37147 /* ShaanxiTransmissionNetworkHiddenWorkSheetConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaanxiTransmissionNetworkHiddenWorkSheetConstants.m; sourceTree = "<group>"; };
+		A4A861A8233DB12C00F37147 /* SXTNHWSEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSEnum.h; sourceTree = "<group>"; };
+		A4A861AA233DB12C00F37147 /* SXTNHWSBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSBaseNavigationController.m; sourceTree = "<group>"; };
+		A4A861AB233DB12C00F37147 /* SXTNHWSBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSBaseController.h; sourceTree = "<group>"; };
+		A4A861AC233DB12C00F37147 /* SXTNHWSBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSBaseCell.m; sourceTree = "<group>"; };
+		A4A861AD233DB12C00F37147 /* SXTNHWSBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSBaseController.m; sourceTree = "<group>"; };
+		A4A861AE233DB12C00F37147 /* SXTNHWSBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSBaseNavigationController.h; sourceTree = "<group>"; };
+		A4A861AF233DB12C00F37147 /* SXTNHWSBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSBaseCell.h; sourceTree = "<group>"; };
+		A4A861B1233DB12C00F37147 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A4A861B3233DB12C00F37147 /* SXTNHWSHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSHttpManager.m; sourceTree = "<group>"; };
+		A4A861B4233DB12C00F37147 /* SXTNHWSPhotoManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSPhotoManger.h; sourceTree = "<group>"; };
+		A4A861B5233DB12C00F37147 /* SXTNHWSFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSFileManager.m; sourceTree = "<group>"; };
+		A4A861B6233DB12C00F37147 /* SXTNHWSPhotoManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSPhotoManger.m; sourceTree = "<group>"; };
+		A4A861B7233DB12C00F37147 /* SXTNHWSHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSHttpManager.h; sourceTree = "<group>"; };
+		A4A861B8233DB12C00F37147 /* SXTNHWSFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSFileManager.h; sourceTree = "<group>"; };
+		A4A861BA233DB12C00F37147 /* SXTNHWSMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSMacros.h; sourceTree = "<group>"; };
+		A4A861BC233DB12C00F37147 /* SXTNHWSConfigs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSConfigs.m; sourceTree = "<group>"; };
+		A4A861BD233DB12C00F37147 /* SXTNHWSConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSConfigs.h; sourceTree = "<group>"; };
+		A4A861C0233DB12C00F37147 /* SXTNHWSBottomOperateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSBottomOperateView.h; sourceTree = "<group>"; };
+		A4A861C1233DB12C00F37147 /* SXTNHWSBottomOperateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSBottomOperateView.m; sourceTree = "<group>"; };
+		A4A861C3233DB12C00F37147 /* SXTNHWSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSHelper.m; sourceTree = "<group>"; };
+		A4A861C4233DB12C00F37147 /* SXTNHWSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSHelper.h; sourceTree = "<group>"; };
+		A4A861C6233DB12C00F37147 /* UIButton+SXTNHWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SXTNHWS.m"; sourceTree = "<group>"; };
+		A4A861C7233DB12C00F37147 /* HDTableViewItem+SXTNHWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDTableViewItem+SXTNHWS.h"; sourceTree = "<group>"; };
+		A4A861C8233DB12C00F37147 /* NSObject+SXTNHWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXTNHWS.m"; sourceTree = "<group>"; };
+		A4A861C9233DB12C00F37147 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A4A861CA233DB12C00F37147 /* HDTableViewItem+SXTNHWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDTableViewItem+SXTNHWS.m"; sourceTree = "<group>"; };
+		A4A861CB233DB12C00F37147 /* UIButton+SXTNHWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SXTNHWS.h"; sourceTree = "<group>"; };
+		A4A861CC233DB12C00F37147 /* NSObject+SXTNHWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXTNHWS.h"; sourceTree = "<group>"; };
+		A4A861D0233DB12C00F37147 /* SXTNHWSWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSWelcomeViewController.h; sourceTree = "<group>"; };
+		A4A861D1233DB12C00F37147 /* SXTNHWSWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSWelcomeViewController.m; sourceTree = "<group>"; };
+		A4A861D4233DB12C00F37147 /* SXTNHWSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSLoginViewController.h; sourceTree = "<group>"; };
+		A4A861D5233DB12C00F37147 /* SXTNHWSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSLoginViewController.m; sourceTree = "<group>"; };
+		A4A861D7233DB12C00F37147 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A4A861D9233DB12C00F37147 /* SXTNHWSLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSLoginView.h; sourceTree = "<group>"; };
+		A4A861DA233DB12C00F37147 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A4A861DB233DB12C00F37147 /* SXTNHWSLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSLoginView.m; sourceTree = "<group>"; };
+		A4A861DF233DB12C00F37147 /* SXTNHWSDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSDetailsController.h; sourceTree = "<group>"; };
+		A4A861E0233DB12C00F37147 /* SXTNHWSDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSDetailsController.m; sourceTree = "<group>"; };
+		A4A861E3233DB12C00F37147 /* SXTNHWSNewWorkSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSNewWorkSheetController.m; sourceTree = "<group>"; };
+		A4A861E4233DB12C00F37147 /* SXTNHWSNewWorkSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSNewWorkSheetController.h; sourceTree = "<group>"; };
+		A4A861E8233DB12C00F37147 /* SXTNHWSListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSListController.h; sourceTree = "<group>"; };
+		A4A861E9233DB12C00F37147 /* SXTNHWSPageListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSPageListController.h; sourceTree = "<group>"; };
+		A4A861EA233DB12C00F37147 /* SXTNHWSListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSListController.m; sourceTree = "<group>"; };
+		A4A861EB233DB12C00F37147 /* SXTNHWSPageListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSPageListController.m; sourceTree = "<group>"; };
+		A4A861ED233DB12C00F37147 /* SXTNHWSListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSListCell.m; sourceTree = "<group>"; };
+		A4A861EE233DB12C00F37147 /* SXTNHWSListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSListCell.h; sourceTree = "<group>"; };
+		A4A861F2233DB12C00F37147 /* SXTNHWSSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSSearchController.h; sourceTree = "<group>"; };
+		A4A861F3233DB12C00F37147 /* SXTNHWSSearchListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSSearchListController.h; sourceTree = "<group>"; };
+		A4A861F4233DB12C00F37147 /* SXTNHWSSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSSearchController.m; sourceTree = "<group>"; };
+		A4A861F5233DB12C00F37147 /* SXTNHWSSearchListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSSearchListController.m; sourceTree = "<group>"; };
+		A4A861F9233DB12C00F37147 /* SXTNHWSTurntoSendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSTurntoSendController.h; sourceTree = "<group>"; };
+		A4A861FA233DB12C00F37147 /* SXTNHWSTurntoSendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSTurntoSendController.m; sourceTree = "<group>"; };
+		A4A861FC233DB12C00F37147 /* SXTNHWSAcceptController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSAcceptController.h; sourceTree = "<group>"; };
+		A4A861FD233DB12C00F37147 /* SXTNHWSAcceptController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSAcceptController.m; sourceTree = "<group>"; };
+		A4A861FF233DB12C00F37147 /* SXTNHWSCompleteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSCompleteController.h; sourceTree = "<group>"; };
+		A4A86200233DB12C00F37147 /* SXTNHWSCompleteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSCompleteController.m; sourceTree = "<group>"; };
+		A4A86202233DB12C00F37147 /* SXTNHWSBaseOperationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSBaseOperationController.h; sourceTree = "<group>"; };
+		A4A86203233DB12C00F37147 /* SXTNHWSBaseOperationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSBaseOperationController.m; sourceTree = "<group>"; };
+		A4A86205233DB12C00F37147 /* SXTNHWSDealCompleteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSDealCompleteController.m; sourceTree = "<group>"; };
+		A4A86206233DB12C00F37147 /* SXTNHWSDealCompleteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSDealCompleteController.h; sourceTree = "<group>"; };
+		A4A86209233DB12C00F37147 /* SXTNHWSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSMainViewController.h; sourceTree = "<group>"; };
+		A4A8620A233DB12C00F37147 /* SXTNHWSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSMainViewController.m; sourceTree = "<group>"; };
+		A4A8620C233DB12C00F37147 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A4A8620E233DB12C00F37147 /* SXTNHWSMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSMainCell.m; sourceTree = "<group>"; };
+		A4A8620F233DB12C00F37147 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A4A86210233DB12C00F37147 /* SXTNHWSMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSMainCell.h; sourceTree = "<group>"; };
+		A4A86212233DB12C00F37147 /* SXTNHWSHistoryDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSHistoryDetailsController.h; sourceTree = "<group>"; };
+		A4A86213233DB12C00F37147 /* SXTNHWSHistoryDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSHistoryDetailsController.m; sourceTree = "<group>"; };
+		A4A86217233DB12C00F37147 /* SXTNHWSHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSHistoryController.h; sourceTree = "<group>"; };
+		A4A86218233DB12C00F37147 /* SXTNHWSHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSHistoryController.m; sourceTree = "<group>"; };
+		A4A8621A233DB12C00F37147 /* SXTNHWSHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNHWSHistoryCell.h; sourceTree = "<group>"; };
+		A4A8621B233DB12C00F37147 /* SXTNHWSHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNHWSHistoryCell.m; sourceTree = "<group>"; };
+		A4A86269233DB16C00F37147 /* ShaanXiHall_Workbench_WorkSheet.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ShaanXiHall_Workbench_WorkSheet.bundle; path = ShaanXiHall_Workbench_WorkSheet/ShaanXiHall_Workbench_WorkSheet.bundle; sourceTree = SOURCE_ROOT; };
+		A4A8637A233DBAD900F37147 /* Target_ShaanXiHall_Workbench_WorkSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ShaanXiHall_Workbench_WorkSheet.h; sourceTree = "<group>"; };
+		A4A8637B233DBAD900F37147 /* Target_ShaanXiHall_Workbench_WorkSheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ShaanXiHall_Workbench_WorkSheet.m; sourceTree = "<group>"; };
+		A4A8637E233DBB5800F37147 /* CTMediator+ShaanXiHall_Workbench_WorkSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ShaanXiHall_Workbench_WorkSheet.h"; sourceTree = "<group>"; };
+		A4A8637F233DBB5800F37147 /* CTMediator+ShaanXiHall_Workbench_WorkSheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ShaanXiHall_Workbench_WorkSheet.m"; sourceTree = "<group>"; };
+		A4A86384233DE93A00F37147 /* ShaanXiHall_Workbench_WorkSheet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShaanXiHall_Workbench_WorkSheet.framework; sourceTree = "<group>"; };
+		AB4EDC9C6B23A5AE02EAC588 /* Pods-ShaanXiHall_Workbench_WorkSheet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShaanXiHall_Workbench_WorkSheet.debug.xcconfig"; path = "Target Support Files/Pods-ShaanXiHall_Workbench_WorkSheet/Pods-ShaanXiHall_Workbench_WorkSheet.debug.xcconfig"; sourceTree = "<group>"; };
+		E6ADD4C3713E13093ECFD34A /* Pods-ShaanXiHall_Workbench_WorkSheet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShaanXiHall_Workbench_WorkSheet.release.xcconfig"; path = "Target Support Files/Pods-ShaanXiHall_Workbench_WorkSheet/Pods-ShaanXiHall_Workbench_WorkSheet.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4A8618F233DB0A900F37147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E461DEC125C7F843C4AF03D /* Pods_ShaanXiHall_Workbench_WorkSheet.framework in Frameworks */,
+				A4A86385233DE93A00F37147 /* ShaanXiHall_Workbench_WorkSheet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6012BC8CF967679B5F9BEA54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB4EDC9C6B23A5AE02EAC588 /* Pods-ShaanXiHall_Workbench_WorkSheet.debug.xcconfig */,
+				E6ADD4C3713E13093ECFD34A /* Pods-ShaanXiHall_Workbench_WorkSheet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4A86188233DB0A900F37147 = {
+			isa = PBXGroup;
+			children = (
+				A4A86194233DB0A900F37147 /* ShaanXiHall_Workbench_WorkSheet */,
+				A4A86193233DB0A900F37147 /* Products */,
+				6012BC8CF967679B5F9BEA54 /* Pods */,
+				C23A470B38FA111B82A8221C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4A86193233DB0A900F37147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4A86192233DB0A900F37147 /* ShaanXiHall_Workbench_WorkSheet.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4A86194233DB0A900F37147 /* ShaanXiHall_Workbench_WorkSheet */ = {
+			isa = PBXGroup;
+			children = (
+				A4A8619D233DB12C00F37147 /* Source */,
+				A4A86195233DB0A900F37147 /* ShaanXiHall_Workbench_WorkSheet.h */,
+				A4A86196233DB0A900F37147 /* Info.plist */,
+			);
+			path = ShaanXiHall_Workbench_WorkSheet;
+			sourceTree = "<group>";
+		};
+		A4A8619D233DB12C00F37147 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A4A86383233DE92E00F37147 /* Frameworks */,
+				A4A86377233DB50E00F37147 /* CTMediator */,
+				A4A8619E233DB12C00F37147 /* Common */,
+				A4A861CD233DB12C00F37147 /* iPhone */,
+				A4A86269233DB16C00F37147 /* ShaanXiHall_Workbench_WorkSheet.bundle */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A4A8619E233DB12C00F37147 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A4A8619F233DB12C00F37147 /* Vendors */,
+				A4A861A4233DB12C00F37147 /* Context */,
+				A4A861A7233DB12C00F37147 /* Enums */,
+				A4A861A9233DB12C00F37147 /* Bases */,
+				A4A861B0233DB12C00F37147 /* Utils */,
+				A4A861B2233DB12C00F37147 /* Manager */,
+				A4A861B9233DB12C00F37147 /* Macros */,
+				A4A861BB233DB12C00F37147 /* Configs */,
+				A4A861BE233DB12C00F37147 /* Views */,
+				A4A861C2233DB12C00F37147 /* Helper */,
+				A4A861C5233DB12C00F37147 /* Categories */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A4A8619F233DB12C00F37147 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861A0233DB12C00F37147 /* Launch */,
+				A4A861A3233DB12C00F37147 /* .gitkeep */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		A4A861A0233DB12C00F37147 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861A1233DB12C00F37147 /* SXTNHWSLaunchViewController.h */,
+				A4A861A2233DB12C00F37147 /* SXTNHWSLaunchViewController.m */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		A4A861A4233DB12C00F37147 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861A5233DB12C00F37147 /* ShaanxiTransmissionNetworkHiddenWorkSheetConstants.h */,
+				A4A861A6233DB12C00F37147 /* ShaanxiTransmissionNetworkHiddenWorkSheetConstants.m */,
+			);
+			path = Context;
+			sourceTree = "<group>";
+		};
+		A4A861A7233DB12C00F37147 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861A8233DB12C00F37147 /* SXTNHWSEnum.h */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		A4A861A9233DB12C00F37147 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861AA233DB12C00F37147 /* SXTNHWSBaseNavigationController.m */,
+				A4A861AB233DB12C00F37147 /* SXTNHWSBaseController.h */,
+				A4A861AC233DB12C00F37147 /* SXTNHWSBaseCell.m */,
+				A4A861AD233DB12C00F37147 /* SXTNHWSBaseController.m */,
+				A4A861AE233DB12C00F37147 /* SXTNHWSBaseNavigationController.h */,
+				A4A861AF233DB12C00F37147 /* SXTNHWSBaseCell.h */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		A4A861B0233DB12C00F37147 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861B1233DB12C00F37147 /* .gitkeep */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A4A861B2233DB12C00F37147 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861B3233DB12C00F37147 /* SXTNHWSHttpManager.m */,
+				A4A861B4233DB12C00F37147 /* SXTNHWSPhotoManger.h */,
+				A4A861B5233DB12C00F37147 /* SXTNHWSFileManager.m */,
+				A4A861B6233DB12C00F37147 /* SXTNHWSPhotoManger.m */,
+				A4A861B7233DB12C00F37147 /* SXTNHWSHttpManager.h */,
+				A4A861B8233DB12C00F37147 /* SXTNHWSFileManager.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A4A861B9233DB12C00F37147 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861BA233DB12C00F37147 /* SXTNHWSMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		A4A861BB233DB12C00F37147 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861BC233DB12C00F37147 /* SXTNHWSConfigs.m */,
+				A4A861BD233DB12C00F37147 /* SXTNHWSConfigs.h */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		A4A861BE233DB12C00F37147 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861BF233DB12C00F37147 /* Bottom */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4A861BF233DB12C00F37147 /* Bottom */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861C0233DB12C00F37147 /* SXTNHWSBottomOperateView.h */,
+				A4A861C1233DB12C00F37147 /* SXTNHWSBottomOperateView.m */,
+			);
+			path = Bottom;
+			sourceTree = "<group>";
+		};
+		A4A861C2233DB12C00F37147 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861C3233DB12C00F37147 /* SXTNHWSHelper.m */,
+				A4A861C4233DB12C00F37147 /* SXTNHWSHelper.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A4A861C5233DB12C00F37147 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861C6233DB12C00F37147 /* UIButton+SXTNHWS.m */,
+				A4A861C7233DB12C00F37147 /* HDTableViewItem+SXTNHWS.h */,
+				A4A861C8233DB12C00F37147 /* NSObject+SXTNHWS.m */,
+				A4A861C9233DB12C00F37147 /* .gitkeep */,
+				A4A861CA233DB12C00F37147 /* HDTableViewItem+SXTNHWS.m */,
+				A4A861CB233DB12C00F37147 /* UIButton+SXTNHWS.h */,
+				A4A861CC233DB12C00F37147 /* NSObject+SXTNHWS.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A4A861CD233DB12C00F37147 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861CE233DB12C00F37147 /* WelcomeModule */,
+				A4A861D2233DB12C00F37147 /* LoginModule */,
+				A4A861DC233DB12C00F37147 /* DetailsModule */,
+				A4A861E2233DB12C00F37147 /* NewWorkSheetModule */,
+				A4A861E5233DB12C00F37147 /* ListModule */,
+				A4A861EF233DB12C00F37147 /* SearchModule */,
+				A4A861F7233DB12C00F37147 /* OperationModule */,
+				A4A86207233DB12C00F37147 /* MainModule */,
+				A4A86211233DB12C00F37147 /* HistoryDetailsModule */,
+				A4A86214233DB12C00F37147 /* HistoryModule */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		A4A861CE233DB12C00F37147 /* WelcomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861CF233DB12C00F37147 /* Controller */,
+			);
+			path = WelcomeModule;
+			sourceTree = "<group>";
+		};
+		A4A861CF233DB12C00F37147 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861D0233DB12C00F37147 /* SXTNHWSWelcomeViewController.h */,
+				A4A861D1233DB12C00F37147 /* SXTNHWSWelcomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4A861D2233DB12C00F37147 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861D3233DB12C00F37147 /* Controller */,
+				A4A861D6233DB12C00F37147 /* Model */,
+				A4A861D8233DB12C00F37147 /* View */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		A4A861D3233DB12C00F37147 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861D4233DB12C00F37147 /* SXTNHWSLoginViewController.h */,
+				A4A861D5233DB12C00F37147 /* SXTNHWSLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4A861D6233DB12C00F37147 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861D7233DB12C00F37147 /* .gitkeep */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4A861D8233DB12C00F37147 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861D9233DB12C00F37147 /* SXTNHWSLoginView.h */,
+				A4A861DA233DB12C00F37147 /* .gitkeep */,
+				A4A861DB233DB12C00F37147 /* SXTNHWSLoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4A861DC233DB12C00F37147 /* DetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861DD233DB12C00F37147 /* Models */,
+				A4A861DE233DB12C00F37147 /* Controllers */,
+				A4A861E1233DB12C00F37147 /* Views */,
+			);
+			path = DetailsModule;
+			sourceTree = "<group>";
+		};
+		A4A861DD233DB12C00F37147 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4A861DE233DB12C00F37147 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861DF233DB12C00F37147 /* SXTNHWSDetailsController.h */,
+				A4A861E0233DB12C00F37147 /* SXTNHWSDetailsController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A4A861E1233DB12C00F37147 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4A861E2233DB12C00F37147 /* NewWorkSheetModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861E3233DB12C00F37147 /* SXTNHWSNewWorkSheetController.m */,
+				A4A861E4233DB12C00F37147 /* SXTNHWSNewWorkSheetController.h */,
+			);
+			path = NewWorkSheetModule;
+			sourceTree = "<group>";
+		};
+		A4A861E5233DB12C00F37147 /* ListModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861E6233DB12C00F37147 /* Models */,
+				A4A861E7233DB12C00F37147 /* Controllers */,
+				A4A861EC233DB12C00F37147 /* Views */,
+			);
+			path = ListModule;
+			sourceTree = "<group>";
+		};
+		A4A861E6233DB12C00F37147 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4A861E7233DB12C00F37147 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861E8233DB12C00F37147 /* SXTNHWSListController.h */,
+				A4A861E9233DB12C00F37147 /* SXTNHWSPageListController.h */,
+				A4A861EA233DB12C00F37147 /* SXTNHWSListController.m */,
+				A4A861EB233DB12C00F37147 /* SXTNHWSPageListController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A4A861EC233DB12C00F37147 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861ED233DB12C00F37147 /* SXTNHWSListCell.m */,
+				A4A861EE233DB12C00F37147 /* SXTNHWSListCell.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4A861EF233DB12C00F37147 /* SearchModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861F0233DB12C00F37147 /* Models */,
+				A4A861F1233DB12C00F37147 /* Controllers */,
+				A4A861F6233DB12C00F37147 /* Views */,
+			);
+			path = SearchModule;
+			sourceTree = "<group>";
+		};
+		A4A861F0233DB12C00F37147 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4A861F1233DB12C00F37147 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861F2233DB12C00F37147 /* SXTNHWSSearchController.h */,
+				A4A861F3233DB12C00F37147 /* SXTNHWSSearchListController.h */,
+				A4A861F4233DB12C00F37147 /* SXTNHWSSearchController.m */,
+				A4A861F5233DB12C00F37147 /* SXTNHWSSearchListController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A4A861F6233DB12C00F37147 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4A861F7233DB12C00F37147 /* OperationModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861F8233DB12C00F37147 /* TurntoSend */,
+				A4A861FB233DB12C00F37147 /* Accept */,
+				A4A861FE233DB12C00F37147 /* Complete */,
+				A4A86201233DB12C00F37147 /* Bases */,
+				A4A86204233DB12C00F37147 /* DealComplete */,
+			);
+			path = OperationModule;
+			sourceTree = "<group>";
+		};
+		A4A861F8233DB12C00F37147 /* TurntoSend */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861F9233DB12C00F37147 /* SXTNHWSTurntoSendController.h */,
+				A4A861FA233DB12C00F37147 /* SXTNHWSTurntoSendController.m */,
+			);
+			path = TurntoSend;
+			sourceTree = "<group>";
+		};
+		A4A861FB233DB12C00F37147 /* Accept */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861FC233DB12C00F37147 /* SXTNHWSAcceptController.h */,
+				A4A861FD233DB12C00F37147 /* SXTNHWSAcceptController.m */,
+			);
+			path = Accept;
+			sourceTree = "<group>";
+		};
+		A4A861FE233DB12C00F37147 /* Complete */ = {
+			isa = PBXGroup;
+			children = (
+				A4A861FF233DB12C00F37147 /* SXTNHWSCompleteController.h */,
+				A4A86200233DB12C00F37147 /* SXTNHWSCompleteController.m */,
+			);
+			path = Complete;
+			sourceTree = "<group>";
+		};
+		A4A86201233DB12C00F37147 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				A4A86202233DB12C00F37147 /* SXTNHWSBaseOperationController.h */,
+				A4A86203233DB12C00F37147 /* SXTNHWSBaseOperationController.m */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		A4A86204233DB12C00F37147 /* DealComplete */ = {
+			isa = PBXGroup;
+			children = (
+				A4A86205233DB12C00F37147 /* SXTNHWSDealCompleteController.m */,
+				A4A86206233DB12C00F37147 /* SXTNHWSDealCompleteController.h */,
+			);
+			path = DealComplete;
+			sourceTree = "<group>";
+		};
+		A4A86207233DB12C00F37147 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4A86208233DB12C00F37147 /* Controller */,
+				A4A8620B233DB12C00F37147 /* Model */,
+				A4A8620D233DB12C00F37147 /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		A4A86208233DB12C00F37147 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4A86209233DB12C00F37147 /* SXTNHWSMainViewController.h */,
+				A4A8620A233DB12C00F37147 /* SXTNHWSMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4A8620B233DB12C00F37147 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4A8620C233DB12C00F37147 /* .gitkeep */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4A8620D233DB12C00F37147 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4A8620E233DB12C00F37147 /* SXTNHWSMainCell.m */,
+				A4A8620F233DB12C00F37147 /* .gitkeep */,
+				A4A86210233DB12C00F37147 /* SXTNHWSMainCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4A86211233DB12C00F37147 /* HistoryDetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4A86212233DB12C00F37147 /* SXTNHWSHistoryDetailsController.h */,
+				A4A86213233DB12C00F37147 /* SXTNHWSHistoryDetailsController.m */,
+			);
+			path = HistoryDetailsModule;
+			sourceTree = "<group>";
+		};
+		A4A86214233DB12C00F37147 /* HistoryModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4A86215233DB12C00F37147 /* Models */,
+				A4A86216233DB12C00F37147 /* Controllers */,
+				A4A86219233DB12C00F37147 /* Views */,
+			);
+			path = HistoryModule;
+			sourceTree = "<group>";
+		};
+		A4A86215233DB12C00F37147 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4A86216233DB12C00F37147 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4A86217233DB12C00F37147 /* SXTNHWSHistoryController.h */,
+				A4A86218233DB12C00F37147 /* SXTNHWSHistoryController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A4A86219233DB12C00F37147 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4A8621A233DB12C00F37147 /* SXTNHWSHistoryCell.h */,
+				A4A8621B233DB12C00F37147 /* SXTNHWSHistoryCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4A86377233DB50E00F37147 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				A4A86379233DBA9D00F37147 /* Cateories */,
+				A4A86378233DBA7F00F37147 /* Action */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		A4A86378233DBA7F00F37147 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				A4A8637A233DBAD900F37147 /* Target_ShaanXiHall_Workbench_WorkSheet.h */,
+				A4A8637B233DBAD900F37147 /* Target_ShaanXiHall_Workbench_WorkSheet.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		A4A86379233DBA9D00F37147 /* Cateories */ = {
+			isa = PBXGroup;
+			children = (
+				A4A8637E233DBB5800F37147 /* CTMediator+ShaanXiHall_Workbench_WorkSheet.h */,
+				A4A8637F233DBB5800F37147 /* CTMediator+ShaanXiHall_Workbench_WorkSheet.m */,
+			);
+			path = Cateories;
+			sourceTree = "<group>";
+		};
+		A4A86383233DE92E00F37147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4A86384233DE93A00F37147 /* ShaanXiHall_Workbench_WorkSheet.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		C23A470B38FA111B82A8221C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21A3B8A65EF859E6CE380569 /* Pods_ShaanXiHall_Workbench_WorkSheet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4A8618D233DB0A900F37147 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A86382233DBD5F00F37147 /* CTMediator+ShaanXiHall_Workbench_WorkSheet.h in Headers */,
+				A4A8623D233DB12C00F37147 /* SXTNHWSWelcomeViewController.h in Headers */,
+				A4A8621F233DB12C00F37147 /* ShaanxiTransmissionNetworkHiddenWorkSheetConstants.h in Headers */,
+				A4A8621C233DB12C00F37147 /* SXTNHWSLaunchViewController.h in Headers */,
+				A4A8623F233DB12C00F37147 /* SXTNHWSLoginViewController.h in Headers */,
+				A4A8637C233DBAD900F37147 /* Target_ShaanXiHall_Workbench_WorkSheet.h in Headers */,
+				A4A86255233DB12C00F37147 /* SXTNHWSAcceptController.h in Headers */,
+				A4A86197233DB0A900F37147 /* ShaanXiHall_Workbench_WorkSheet.h in Headers */,
+				A4A86227233DB12C00F37147 /* SXTNHWSBaseCell.h in Headers */,
+				A4A8625C233DB12C00F37147 /* SXTNHWSDealCompleteController.h in Headers */,
+				A4A86250233DB12C00F37147 /* SXTNHWSSearchListController.h in Headers */,
+				A4A8622E233DB12C00F37147 /* SXTNHWSFileManager.h in Headers */,
+				A4A86232233DB12C00F37147 /* SXTNHWSBottomOperateView.h in Headers */,
+				A4A86223233DB12C00F37147 /* SXTNHWSBaseController.h in Headers */,
+				A4A86231233DB12C00F37147 /* SXTNHWSConfigs.h in Headers */,
+				A4A86245233DB12C00F37147 /* SXTNHWSDetailsController.h in Headers */,
+				A4A86253233DB12C00F37147 /* SXTNHWSTurntoSendController.h in Headers */,
+				A4A86263233DB12C00F37147 /* SXTNHWSHistoryDetailsController.h in Headers */,
+				A4A86235233DB12C00F37147 /* SXTNHWSHelper.h in Headers */,
+				A4A86265233DB12C00F37147 /* SXTNHWSHistoryController.h in Headers */,
+				A4A86248233DB12C00F37147 /* SXTNHWSNewWorkSheetController.h in Headers */,
+				A4A8624A233DB12C00F37147 /* SXTNHWSPageListController.h in Headers */,
+				A4A8622F233DB12C00F37147 /* SXTNHWSMacros.h in Headers */,
+				A4A86262233DB12C00F37147 /* SXTNHWSMainCell.h in Headers */,
+				A4A86249233DB12C00F37147 /* SXTNHWSListController.h in Headers */,
+				A4A8623C233DB12C00F37147 /* NSObject+SXTNHWS.h in Headers */,
+				A4A8622A233DB12C00F37147 /* SXTNHWSPhotoManger.h in Headers */,
+				A4A8624E233DB12C00F37147 /* SXTNHWSListCell.h in Headers */,
+				A4A86221233DB12C00F37147 /* SXTNHWSEnum.h in Headers */,
+				A4A86242233DB12C00F37147 /* SXTNHWSLoginView.h in Headers */,
+				A4A8623B233DB12C00F37147 /* UIButton+SXTNHWS.h in Headers */,
+				A4A8624F233DB12C00F37147 /* SXTNHWSSearchController.h in Headers */,
+				A4A8622D233DB12C00F37147 /* SXTNHWSHttpManager.h in Headers */,
+				A4A86259233DB12C00F37147 /* SXTNHWSBaseOperationController.h in Headers */,
+				A4A86267233DB12C00F37147 /* SXTNHWSHistoryCell.h in Headers */,
+				A4A86257233DB12C00F37147 /* SXTNHWSCompleteController.h in Headers */,
+				A4A86226233DB12C00F37147 /* SXTNHWSBaseNavigationController.h in Headers */,
+				A4A86237233DB12C00F37147 /* HDTableViewItem+SXTNHWS.h in Headers */,
+				A4A8625D233DB12C00F37147 /* SXTNHWSMainViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4A86191233DB0A900F37147 /* ShaanXiHall_Workbench_WorkSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A8619A233DB0A900F37147 /* Build configuration list for PBXNativeTarget "ShaanXiHall_Workbench_WorkSheet" */;
+			buildPhases = (
+				DCAC533D81CE8CE63CD19939 /* [CP] Check Pods Manifest.lock */,
+				A4A8618D233DB0A900F37147 /* Headers */,
+				A4A8618E233DB0A900F37147 /* Sources */,
+				A4A8618F233DB0A900F37147 /* Frameworks */,
+				A4A86190233DB0A900F37147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShaanXiHall_Workbench_WorkSheet;
+			productName = ShaanXiHall_Workbench_WorkSheet;
+			productReference = A4A86192233DB0A900F37147 /* ShaanXiHall_Workbench_WorkSheet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4A86189233DB0A900F37147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = TJ;
+				TargetAttributes = {
+					A4A86191233DB0A900F37147 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = A4A8618C233DB0A900F37147 /* Build configuration list for PBXProject "ShaanXiHall_Workbench_WorkSheet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4A86188233DB0A900F37147;
+			productRefGroup = A4A86193233DB0A900F37147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4A86191233DB0A900F37147 /* ShaanXiHall_Workbench_WorkSheet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4A86190233DB0A900F37147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A8626A233DB16C00F37147 /* ShaanXiHall_Workbench_WorkSheet.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DCAC533D81CE8CE63CD19939 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShaanXiHall_Workbench_WorkSheet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4A8618E233DB0A900F37147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A8623A233DB12C00F37147 /* HDTableViewItem+SXTNHWS.m in Sources */,
+				A4A86260233DB12C00F37147 /* SXTNHWSMainCell.m in Sources */,
+				A4A86256233DB12C00F37147 /* SXTNHWSAcceptController.m in Sources */,
+				A4A8624C233DB12C00F37147 /* SXTNHWSPageListController.m in Sources */,
+				A4A86220233DB12C00F37147 /* ShaanxiTransmissionNetworkHiddenWorkSheetConstants.m in Sources */,
+				A4A86264233DB12C00F37147 /* SXTNHWSHistoryDetailsController.m in Sources */,
+				A4A86246233DB12C00F37147 /* SXTNHWSDetailsController.m in Sources */,
+				A4A86238233DB12C00F37147 /* NSObject+SXTNHWS.m in Sources */,
+				A4A8625B233DB12C00F37147 /* SXTNHWSDealCompleteController.m in Sources */,
+				A4A86230233DB12C00F37147 /* SXTNHWSConfigs.m in Sources */,
+				A4A8623E233DB12C00F37147 /* SXTNHWSWelcomeViewController.m in Sources */,
+				A4A8625A233DB12C00F37147 /* SXTNHWSBaseOperationController.m in Sources */,
+				A4A86254233DB12C00F37147 /* SXTNHWSTurntoSendController.m in Sources */,
+				A4A86234233DB12C00F37147 /* SXTNHWSHelper.m in Sources */,
+				A4A86268233DB12C00F37147 /* SXTNHWSHistoryCell.m in Sources */,
+				A4A8621D233DB12C00F37147 /* SXTNHWSLaunchViewController.m in Sources */,
+				A4A8624D233DB12C00F37147 /* SXTNHWSListCell.m in Sources */,
+				A4A8622C233DB12C00F37147 /* SXTNHWSPhotoManger.m in Sources */,
+				A4A86224233DB12C00F37147 /* SXTNHWSBaseCell.m in Sources */,
+				A4A86247233DB12C00F37147 /* SXTNHWSNewWorkSheetController.m in Sources */,
+				A4A8637D233DBAD900F37147 /* Target_ShaanXiHall_Workbench_WorkSheet.m in Sources */,
+				A4A8625E233DB12C00F37147 /* SXTNHWSMainViewController.m in Sources */,
+				A4A86225233DB12C00F37147 /* SXTNHWSBaseController.m in Sources */,
+				A4A86266233DB12C00F37147 /* SXTNHWSHistoryController.m in Sources */,
+				A4A86381233DBB5800F37147 /* CTMediator+ShaanXiHall_Workbench_WorkSheet.m in Sources */,
+				A4A86222233DB12C00F37147 /* SXTNHWSBaseNavigationController.m in Sources */,
+				A4A86229233DB12C00F37147 /* SXTNHWSHttpManager.m in Sources */,
+				A4A86244233DB12C00F37147 /* SXTNHWSLoginView.m in Sources */,
+				A4A86236233DB12C00F37147 /* UIButton+SXTNHWS.m in Sources */,
+				A4A86251233DB12C00F37147 /* SXTNHWSSearchController.m in Sources */,
+				A4A86258233DB12C00F37147 /* SXTNHWSCompleteController.m in Sources */,
+				A4A86233233DB12C00F37147 /* SXTNHWSBottomOperateView.m in Sources */,
+				A4A8624B233DB12C00F37147 /* SXTNHWSListController.m in Sources */,
+				A4A86252233DB12C00F37147 /* SXTNHWSSearchListController.m in Sources */,
+				A4A86240233DB12C00F37147 /* SXTNHWSLoginViewController.m in Sources */,
+				A4A8622B233DB12C00F37147 /* SXTNHWSFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4A86198233DB0A900F37147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4A86199233DB0A900F37147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4A8619B233DB0A900F37147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4EDC9C6B23A5AE02EAC588 /* Pods-ShaanXiHall_Workbench_WorkSheet.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 46BD496ABN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShaanXiHall_Workbench_WorkSheet/Source/Frameworks",
+				);
+				INFOPLIST_FILE = ShaanXiHall_Workbench_WorkSheet/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = "tangji.ShaanXiHall-Workbench-WorkSheet";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A4A8619C233DB0A900F37147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6ADD4C3713E13093ECFD34A /* Pods-ShaanXiHall_Workbench_WorkSheet.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 46BD496ABN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShaanXiHall_Workbench_WorkSheet/Source/Frameworks",
+				);
+				INFOPLIST_FILE = ShaanXiHall_Workbench_WorkSheet/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = "tangji.ShaanXiHall-Workbench-WorkSheet";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4A8618C233DB0A900F37147 /* Build configuration list for PBXProject "ShaanXiHall_Workbench_WorkSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A86198233DB0A900F37147 /* Debug */,
+				A4A86199233DB0A900F37147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A8619A233DB0A900F37147 /* Build configuration list for PBXNativeTarget "ShaanXiHall_Workbench_WorkSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A8619B233DB0A900F37147 /* Debug */,
+				A4A8619C233DB0A900F37147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4A86189233DB0A900F37147 /* Project object */;
+}

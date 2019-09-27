@@ -1,0 +1,56 @@
+source "https://boco.site/iOSBasics/cocoapods/Specs.git"
+source "https://github.com/CocoaPods/Specs.git"
+source "https://boco.site/iOSBasics/boco.git"
+source "https://github.com/Haidora/HaidoraPods.git"
+
+platform :ios, '9.0'
+use_frameworks!
+
+target 'ShaanXiHall_Workbench_WorkSheet' do
+	#Haidora
+	pod 'HaidoraProgressHUDManager', '~> 0.1.1'
+	pod 'HaidoraAlertViewManager', '~> 0.1.1'
+	pod 'HaidoraRefresh', '~> 0.1.6'
+    pod 'HaidoraActionView', '~> 1.1'
+	#Boco基础业务数据.(用户信息).
+	pod 'BocoBusiness', '~> 0.1.5'
+	#Boco证书需要添加
+	pod 'BocoDemo', '~> 0.1.3'
+	#Boco库
+	pod 'BocoFormManager', '~> 0.1.18'
+	#自动布局
+	pod 'Masonry', '~> 1.1.0'
+	pod 'SDAutoLayout', '~> 2.1.7' 
+	#其他
+	pod 'YYModel', '~> 1.0.4'
+	pod 'YYCache', '~> 1.0.4'
+	pod 'IQKeyboardManager', '~> 4.0.13'
+	pod 'FMDB', '~> 2.7.5'
+	pod 'Aspects', '~> 1.4.1'
+	pod 'PromisesObjC', '~> 1.1.1'
+	pod 'WMPageController', '~> 2.3.0'
+	pod 'BocoRolePicker', '~> 0.2.3'
+	pod 'YBPopupMenu', '~> 1.1.2'
+	pod 'SCLAlertView-Objective-C', '~> 1.1.6'
+  pod 'DZNEmptyDataSet', '~> 1.7.2'
+  pod 'TZImagePickerController', '~> 1.8.9'
+	#加密
+	pod 'BocoCryptoAssistant' , '~> 0.1.1'
+	pod 'BocoCertificationAssistant' , '~> 0.1.3'
+  pod 'CocoaSecurity', '~> 1.2.4'
+  #UI调试
+  pod 'LookinServer',:configurations => ['Debug']
+  #自动更新
+  pod 'BocoUpdate','~>1.0.2'
+  #蒲公英
+  pod 'Pgyer', '~> 2.8.9'
+  #组件化
+  pod 'CTMediator'
+  #Bmdp服务(jar请放在jars下面)
+	pod 'BocoJTI', '~> 0.4.18'
+	pod 'BocoJTIRetrofit', '~> 0.1.4'
+pre_install do |installer|
+  require File.expand_path('BocoJTIConfigurator.rb', installer.sandbox.root.to_s + '/BocoJTI/BocoJTI/Tools/')
+    BocoJTIConfigurator::pre_install(installer)
+end
+end
